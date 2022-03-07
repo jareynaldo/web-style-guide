@@ -16,7 +16,7 @@
       }
       
     }
-@media(min-width: 768px) {
+@media(min-width: map-get($breakpoints, 'med')) {
   .btn + .btn {
     margin-left: 10px;
   }

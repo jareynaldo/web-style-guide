@@ -2,19 +2,22 @@
 // image styles 
 // ===========================================================
 
-.img-avatar {
-    @include block;
-    @include  mag-wit;
-    max-height: 100%;
-  }
-  
-  .img-frame {
-    @include block;
-    @include mag-wit;
-    padding: 13px;
-    border: 1px solid $white;
-  }
-  
-  .img-logo {
-    @include block;
-  }
+.img{
+
+    &-avatar {
+      @include block;
+      @include  mag-wit;
+      max-height: 100%;
+    }
+    
+    &-frame {
+      @include block;
+      @include mag-wit;
+      padding: 13px;
+      border: 1px solid $white;
+    }
+    
+    &-logo {
+      @include block;
+    }
+}
