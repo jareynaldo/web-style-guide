@@ -22,24 +22,45 @@
   }
   
 }
+
+//map-get ($colors, ''){
+  //&:hover{ 
+//    background-color: lighten( #{#}: , 10);
+ // }}
+
   
   .default {
     background-color: $color-default;
+    &:hover {
+      background: lighten($color-default, 10%)
+    }
   }
   
   .error {
     background-color: $color-error;
+    &:hover {
+      background: lighten($color-error, 10%)
+    }
   }
   
   .info {
     background-color: $color-info;
+    &:hover {
+      background: lighten($color-info, 10%)
+    }
   }
   
   .success {
     background-color: $color-success;
+    &:hover {
+      background: lighten($color-success, 10%)
+    }
   }
   
   .warning {
     background-color: $color-warning;
+    &:hover {
+      background: lighten($color-warning, 10%)
+    }
   }
   

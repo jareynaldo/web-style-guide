@@ -47,14 +47,14 @@
   }
   
   .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $orange ;
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 16.67%;
     }
   }
   
   .theme.col-3 {
-    background-color: #deb2ee;
+    background-color:  lighten($color-info , 40);
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 25.00%;
     }
@@ -68,57 +68,60 @@
   }
   
   .theme.col-5 {
-    background-color: #88d9a0;
+    background-color: lighten($color-success , 30);
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 41.67%;
+      margin-right: .5rem;
     }
   }
   
   .theme.col-6 {
-    background-color: $color-primary;
+    background-color: $color-darkblue;
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 50%;
     }
   }
   
   .theme.col-7 {
-    background-color: #ec9fa3;
+    background-color: $col-7;
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 58.33%;
+      margin-right: auto;
+      margin-left: auto;
 
     }
   }
   
   .theme.col-8 {
-    background-color: #fd9f85;
+    background-color: $col-8;
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 66.67%;
     }
   }
   
   .theme.col-9 {
-    background-color: #e4757a;
+    background-color: lighten($col-8, 10);
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 75%;
     }
   }
   
   .theme.col-10 {
-    background-color: #63cc82;
+    background-color: lighten( $color-success, 10);
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 83.33%;
     }
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $color-default;
     @media (min-width:map-get($breakpoints, 'med')) {
       flex-basis: 91.67%;
     }
   }
   
   .theme.col-12 {
-    background-color: #80e8d1;
+    background-color: $color-primary;
     @media (min-width: map-get($breakpoints, 'med')) {
       flex-basis: 100%;
     }

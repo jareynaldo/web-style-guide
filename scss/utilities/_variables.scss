@@ -6,12 +6,15 @@
 $color-primary: #58e1c1; // blue-reensish
 $color-primary-light: lighten($color-primary, 10%);
 $color-default: #51ddfc; 
-$color-darkblue: #1d1ba0;
+$color-darkblue: #0400ffc4;
 $color-success: #3bb437;
 $color-error: rgb(202, 42, 42);
 $color-warning: #afbb41;
 $color-info: #8325c2;
 $white: white;
+$orange: #fd7856;
+$col-7: #ec9fa3;
+$col-8: #fd9f85;
 
 
 $color-text: #343434;
@@ -23,6 +26,13 @@ $breakpoints: (
   'lg': 992px
 );
 
+$colors:  (
+ '.default': #{$color-primary},
+ '.error': #{$color-error},
+ '.info': #{$color-info},
+ '.success': #{$color-success},
+ '.warning': #{$color-warning}
+);
 
 // buttons 
 /*

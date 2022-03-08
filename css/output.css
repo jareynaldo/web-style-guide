@@ -413,21 +413,36 @@ blockquote {
 .default {
   background-color: #51ddfc;
 }
+.default:hover {
+  background: #83e7fd;
+}
 
 .error {
   background-color: #ca2a2a;
+}
+.error:hover {
+  background: #da4d4d;
 }
 
 .info {
   background-color: #8325c2;
 }
+.info:hover {
+  background: #9c40da;
+}
 
 .success {
   background-color: #3bb437;
 }
+.success:hover {
+  background: #57cb53;
+}
 
 .warning {
   background-color: #afbb41;
+}
+.warning:hover {
+  background: #c0ca65;
 }
 
 .form {
@@ -515,7 +530,7 @@ blockquote {
 }
 
 .theme.col-3 {
-  background-color: #deb2ee;
+  background-color: #dfc0f3;
 }
 @media (min-width: 768px) {
   .theme.col-3 {
@@ -533,16 +548,17 @@ blockquote {
 }
 
 .theme.col-5 {
-  background-color: #88d9a0;
+  background-color: #a4e2a2;
 }
 @media (min-width: 768px) {
   .theme.col-5 {
     flex-basis: 41.67%;
+    margin-right: 0.5rem;
   }
 }
 
 .theme.col-6 {
-  background-color: #58e1c1;
+  background-color: #0400ffc4;
 }
 @media (min-width: 768px) {
   .theme.col-6 {
@@ -556,6 +572,8 @@ blockquote {
 @media (min-width: 768px) {
   .theme.col-7 {
     flex-basis: 58.33%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -569,7 +587,7 @@ blockquote {
 }
 
 .theme.col-9 {
-  background-color: #e4757a;
+  background-color: #fec6b7;
 }
 @media (min-width: 768px) {
   .theme.col-9 {
@@ -578,7 +596,7 @@ blockquote {
 }
 
 .theme.col-10 {
-  background-color: #63cc82;
+  background-color: #57cb53;
 }
 @media (min-width: 768px) {
   .theme.col-10 {
@@ -596,7 +614,7 @@ blockquote {
 }
 
 .theme.col-12 {
-  background-color: #80e8d1;
+  background-color: #58e1c1;
 }
 @media (min-width: 768px) {
   .theme.col-12 {
