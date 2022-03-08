@@ -1,4 +1,13 @@
 /*
+$breakpoints:  (
+ '.default': #58e1c1,
+ '.error': #ca2a2a,
+ '.info': #8325c2,
+ '.success': #3bb437,
+ '.warning': #afbb41
+);
+*/
+/*
 $background-color:
 ('.default', 
  '.error', 
